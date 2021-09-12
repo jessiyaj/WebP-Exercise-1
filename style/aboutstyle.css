@@ -1,0 +1,144 @@
+body {
+    font-family: 'Montserrat';
+    background: black;
+  }
+  
+  .about-text h2{
+      color: white;
+      font-weight: bolder;
+      text-align:center;
+      margin-top: 150px;
+  }
+
+  .about-text p{
+      color: white;
+      text-align: justify;
+      margin-top: 20px;
+      margin-left: 200px;
+      margin-right: 200px;
+      
+  }
+  /* Float three columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    margin-right: 50px;
+    color:white;
+    
+  }
+  
+  .name{
+      font-weight:bolder;
+      font-size: 1.1rem;
+  }
+
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {
+      margin: 0 -5px;
+      margin-top: 50px;
+      margin-left: 200px;
+}
+  
+  /* Clear floats after the columns */
+  /* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: left;
+    background: rgba(41, 128, 185,0.7);
+    width: 320px;
+    border-radius: 10px;
+    /* margin-right: 40px; */
+  }
+
+ 
+  /* Responsive columns - one column layout (vertical) on small screens */
+
+  @media only screen and (max-width: 1400px) {
+    .column {
+        width: 30%;
+        margin: auto;
+        margin-bottom: 4rem;
+    }
+}
+@media only screen and (max-width: 1250px) {
+  .column {
+      width:75%;
+      margin: auto;
+      margin-top: 3.75rem;
+  }
+  .about-text h2{
+    
+    margin-top: 50px;
+}
+
+.about-text p{
+    
+    margin-top: 20px;
+}
+}
+
+  /* @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .column {
+      float:left;
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+      margin-right: 50px;
+    }
+    .row{
+      margin-left: 0px;
+      margin-right: 100px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1000px) {
+    .column {
+      float:left;
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+      margin-right: 50px;
+    }
+    .row{
+      margin-left: 0px;
+      margin-right: 10px;
+      text-align:center;
+    }
+    
+  }
+
+  @media screen and (max-width: 1300px) {
+    .column {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+      margin-left: 250px;
+    }
+
+    .about-text h2{
+      margin-top: 100px;
+  }
+
+  .about-text p{
+      margin-top: 10px;
+  }
+}
+ */
